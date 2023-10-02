@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #00000000;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 320px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption i {
+	font-size: 38px;
+	margin-left: 10px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px rgb(10, 144, 133); /* Agregar una sombra ,
+	4px 4px 2px rgba(255, 20, 141, 0.381); */
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #000;
+}
+.navbar-brand {
+	font-family: 'Averia Sans Libre', cursive;
+    font-weight: 600;
+    font-size: 36px;
+    color: #3ed8c9; 
+    text-shadow: 2px 2px 2px rgb(10, 144, 133); /* Agregar una sombra ,
+	4px 4px 2px rgba(255, 20, 141, 0.381); */
+	-webkit-text-stroke: 1px #ff69b480; 
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.xp .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+
+.skill-card {
+	text-align: center;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	transition: transform 0.3s, box-shadow 0.3s;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+transform: translateY(-5px);
+}
+
+.skill-card i {
+	color: #40e0d0;
+}
+
+.skill-card p {
+	margin-bottom: -5px;
+}
+
+
+.skill-card .card-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.progress-container {
+	margin-top: 20px;
+	text-align: left;
+}
+
+
+.progress-container i{
+	text-align: left;
+	margin-left: 10px;
+	font-size: 24px;
+	color: #000000;
+}
+
+.fa-csharp {
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+
+.progress {
+	height: 10px;
+	background-color: #40e0d043;
+}
+
+.progress-bar {
+	background-color: rgba(255, 105, 180, 1);
+}
+.progress-label {
+	display: block;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #000;
+}
+.btn-turqueza {
+	background-color: turquoise;
+	color: white;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-turqueza i {
+	margin-left: 7px;
+	font-size: 15px;
+}
+.avatar-img {
+	margin-right: 10px;
+}
+.portfolio-icon {
+	font-size: 25px;
+	color: turquoise;
+	margin-left: 5px;
+}
+.anchor-footer {
+	color: turquoise;
+}
+
+.portfolio-card {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	transition: transform 0.3s, box-shadow 0.3s;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card:hover {
+	transform: translateY(-5px);
+}
+
+.portfolio-card i {
+	color: #40e0d0;
+}
+
+.portfolio-card p {
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+
+.portfolio-card .card-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
+
